@@ -148,7 +148,7 @@ li a:hover{
 
     .container{
         background-image: url(image1.png);
-        background-color: white;
+        background-repeat: repeat;
     }
 }
 
