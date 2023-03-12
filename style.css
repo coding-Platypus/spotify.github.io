@@ -196,7 +196,7 @@ li a:hover{
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
 
     .song-item{
         font-size: 0.53rem;
@@ -205,6 +205,11 @@ li a:hover{
     .song-info span{
         font-size: 0.8rem;
     }
+    
+    .time{
+        display: none;
+    }
+
 }
 
 @media (max-width: 415px) {
@@ -225,11 +230,14 @@ li a:hover{
         margin: auto 0.3rem;
     }
 
-    .time{
+    
+    .song-info span{
         display: none;
     }
+}
 
-    .song-info span{
+@media (max-width: 1200px) {
+    .time{
         display: none;
     }
 }
