@@ -196,14 +196,14 @@ li a:hover{
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1080px) {
 
     .song-item{
         font-size: 0.53rem;
     }
 
     .song-info span{
-        font-size: 0.8rem;
+        display: none;
     }
     
     .time{
@@ -228,11 +228,6 @@ li a:hover{
 
     .song-name{
         margin: auto 0.3rem;
-    }
-
-    
-    .song-info span{
-        display: none;
     }
 }
 
