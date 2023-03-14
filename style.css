@@ -142,16 +142,6 @@ li a:hover{
     }
 }
 
-@media (max-width: 1064px) {
-    
-    /** Container adjustment **/
-
-    .container{
-        background-image: url(image1.png);
-        background-repeat: repeat;
-    }
-}
-
 @media (max-height: 650px){
 
     /** navbar adjustment **/
@@ -197,6 +187,13 @@ li a:hover{
 }
 
 @media (max-width: 1080px) {
+    
+     .container{
+        background-image: url(image1.png);
+        background-repeat: repeat;
+        width: 70%;
+        margin: 1.5rem auto;
+    }
 
     .song-item{
         font-size: 0.53rem;
@@ -213,11 +210,6 @@ li a:hover{
 }
 
 @media (max-width: 415px) {
-
-    .container{
-        width: 70%;
-        margin: 1.5rem auto;
-    }
     
     .song-item{
         font-size: 0.7rem;
